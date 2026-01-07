@@ -1,0 +1,63 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: #000;
+    background: linear-gradient(128deg, rgba(0, 0, 0, 1) 0%, rgba(97, 39, 39, 1) 50%, rgba(255, 0, 0, 1) 100%);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+    position: relative;
+}
+
+.init {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.init img {
+    width: 70%;
+    max-width: 250px;
+    object-fit: contain;
+}
+
+.init h2 {
+    text-align: center;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.links {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transition: .5s
+}
+.links img:hover {
+    transform: scale(1.2);
+}
